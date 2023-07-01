@@ -1,0 +1,63 @@
+.container{
+    background-size:cover;
+    background-image: url("R.jpg");
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.box{
+    border-radius: 5%;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #F5F3E7;
+    text-align: center;
+}
+.inputField{
+   
+    border-radius: 5px;
+    border: 2px solid orange;
+    text-align: center;
+    width: 80%;
+}
+@media (max-width: 767px) {
+    .container {
+      min-height: 500px;
+    }
+  
+    .box {
+      margin-top: 40px;
+      height: 200px;
+      width: 150px;
+    }
+  }
+  
+  /* For screens between 768px and 1024px */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      min-height: 800px;
+    }
+  
+    .box {
+      margin-top: 60px;
+      height: 250px;
+      width: 180px;
+    }
+  }
+  
+  /* For screens larger than 1024px */
+  @media (min-width: 1024px) {
+    .container {
+      min-height: 1000px;
+    }
+  
+    .box {
+      margin-top: 80px;
+      height: 300px;
+      width: 200px;
+    }
+  }
